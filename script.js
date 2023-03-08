@@ -35,19 +35,7 @@ document.getElementsByClassName("btn-outline-secondary")[0].addEventListener('cl
 
 function toggGreen() {
   
-    let styleCard = document.querySelector('.col-md-4:nth-child(2) .card-text')
-    
-    document.querySelector('.col-md-4:nth-child(2) .btn-outline-secondary').addEventListener("click", function () {
-
-      if (styleCard.style.color === 'green') {
-
-        styleCard.style.color = '';
-
-      } else {
-        styleCard.style.color = "green";
-      }
-
-    })
+   
 
 };
 
